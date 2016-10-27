@@ -1,0 +1,4 @@
+Name: Dice Roll
+Descriptions: A dice roller for R.
+Binding: diceRollGUI
+Interactive: TRUE

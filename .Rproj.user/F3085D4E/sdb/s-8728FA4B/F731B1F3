@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: diceRollers\nType: Package\nTitle: Dice roller shiny gadget\nVersion: 0.1.0\nAuthor: Sven K Nelson\nMaintainer: Sven Nelson <sven.nelson100@email.wsu.edu>\nDescription: A dice roller shiny gadget.\nLicense: What license is it under?\nLazyData: TRUE\nImports:\n  miniUI,\n  shiny,\n  shinythemes\n",
+    "created" : 1476292131531.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1372263023",
+    "id" : "F731B1F3",
+    "lastKnownWriteTime" : 1477286539,
+    "last_content_update" : 1477286539354,
+    "path" : "~/Dropbox/00. Code files/Packages/diceRollers/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}
