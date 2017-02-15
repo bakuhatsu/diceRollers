@@ -11,7 +11,7 @@ Since GitHub packaged are compiled on your machine to run, you may be prompted t
   
 Now you should be ready to install and then load the `diceRollers` package
 ```r
-## Install pacNamesAddin package to get the RStudio addins for automatic insertion of package names
+## Install diceRoller package to get the RStudio addin.
 install_github("bakuhatsu/diceRollers") # syntax for installing from GitHub: username/library
 library(diceRollers) # To load the package (not necessary to directly use the addin version)
 ```
