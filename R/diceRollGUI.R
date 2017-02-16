@@ -41,7 +41,7 @@ diceRollGUI <- function(numOfDice, sides=6) {
   server <- function(input, output, session) {
     output$selectDoubles <- shiny::renderUI({
       possDbl <- input$minHit:input$diceSides
-      shiny::checkboxGroupInput("dblsOn", NULL, possDbl, inline = T) # selected = 6,
+      htmltools::div(shiny::checkboxGroupInput("dblsOn", NULL, possDbl, inline = T), style = "text-indent 30px;") # selected = 6, ## Change the html here.
     })
     #output$diceSides <- input$diceSides
     output$minHitSlider <- shiny::renderUI({
@@ -55,7 +55,7 @@ diceRollGUI <- function(numOfDice, sides=6) {
       shiny::isolate({
         input$go
         #print(as.numeric(input$dblsOn)) # code for testing
-        diceRollers::diceRoll(input$numDice, input$diceSides, hitLow = input$minHit, double = as.numeric(input$dblsOn))
+        diceRoll(input$numDice, input$diceSides, hitLow = input$minHit, double = as.numeric(input$dblsOn))
       })
     })
     output$roll <- shiny::renderPrint({
