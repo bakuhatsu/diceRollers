@@ -17,6 +17,6 @@ library(diceRollers) # To load the package (not necessary to directly use the ad
 ```
 Run directly from the command line with:
 ```r  
-iceRollers::diceRollGUI()
+diceRollers::diceRollGUI()
 ``` 
 Does not require RStudio.  If run outside of RStudio, will load in the default web browser.  
